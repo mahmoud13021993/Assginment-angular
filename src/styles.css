@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+.active {
+    background-color: #1ABC9C !important;
+    border-radius: 10px;
+}
+.home,
+.about {
+    background-color: #1ABC9C;
+}
+.star-icon::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 70px;
+    background-color: #fff;
+    top: 50%;
+    right: 90px;
+    }
+    .star-icon::before {
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 70px;
+        background-color: #fff;
+        top: 50%;
+        left: 90px;
+        }
+    .about .star-icon {
+        width: 35%;
+    }

@@ -1,0 +1,16 @@
+.porfolio .star-icon::after,
+.porfolio .star-icon::before {
+    background-color: #212529;
+}
+.porfolio .star-icon {
+    width: 35%;
+}
+.porfolio .layer {
+background-color: #1ABC9C;
+}
+.porfolio .col-md-4 .layer {
+    transition: opacity 1s;
+}
+.porfolio .col-md-4:hover  .layer {
+    opacity: 1 !important;
+}

@@ -1,0 +1,13 @@
+.contact .star-icon::after,
+.contact .star-icon::before {
+    background-color: #212529;
+}
+.star-icon {
+    width: 35%;
+}
+.inputs label{
+ color: #1ABC9C;
+}
+.inputs input:focus {
+    box-shadow: none !important;
+}
